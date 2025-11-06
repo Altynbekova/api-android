@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                                 throw new RuntimeException(e);
                             }
                             resultOutput.setText(
-                                    String.format("Name: %s\nWebsite: $s", name, website)
+                                    String.format("Name: %s\nWebsite: %s", name, website)
                             );
                         }
                 );
